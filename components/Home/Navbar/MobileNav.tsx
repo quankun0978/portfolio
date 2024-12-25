@@ -1,5 +1,5 @@
 import { navLinks } from '@/constants/constant'
-import { INavMobileProps } from '@/interfaces/props/Navbar/INavbar'
+import { INavMobileProps } from '@/interfaces/props/INavbar'
 import Link from 'next/link'
 import React from 'react'
 import { CgClose } from 'react-icons/cg'

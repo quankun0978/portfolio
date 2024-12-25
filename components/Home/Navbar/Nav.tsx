@@ -1,6 +1,6 @@
 "use client"
 import { navLinks } from '@/constants/constant'
-import { INavProps } from '@/interfaces/props/Navbar/INavbar'
+import { INavProps } from '@/interfaces/props/INavbar'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'

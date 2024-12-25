@@ -1,3 +1,5 @@
+import { IService } from "@/interfaces/props/IService";
+
 export const BaseInfo = {
   name: "Quân",
   position: "Full Stack Web Developer",
@@ -16,7 +18,7 @@ export const aboutInfo = {
   website: "100+",
 };
 
-export const servicesData = [
+export const servicesData: IService[] = [
   {
     id: 1,
     title: " Web Applications",
