@@ -3,6 +3,6 @@ export interface INavProps {
 }
 
 export interface INavMobileProps {
-  showNav: Boolean;
+  showNav: boolean;
   closeNav: () => void;
 }

@@ -9,7 +9,7 @@ import { HiBars3BottomRight } from 'react-icons/hi2'
 const Nav = (Props: INavProps) => {
     const { openNav } = Props
 
-    const [navBg, setNavBg] = useState<Boolean>(false)
+    const [navBg, setNavBg] = useState<boolean>(false)
 
     useEffect(() => {
         const handler = () => {

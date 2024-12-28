@@ -27,7 +27,7 @@ const responsive = {
 const Slider = () => {
     return (
         <Carousel arrows={true} autoPlay={true} autoPlaySpeed={5000} infinite responsive={responsive}>
-            {clientReviews.map((review: IReview, index: Number) => {
+            {clientReviews.map((review: IReview) => {
                 return <ReviewCard key={Math.random()} review={review} />
             })}
         </Carousel>
