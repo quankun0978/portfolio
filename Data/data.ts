@@ -5,7 +5,7 @@ export const BaseInfo = {
   position: "Full Stack Web Developer",
   description:
     "Apply current knowledge, experience and skills to work to better grasp knowledge and apply it to successfully complete assigned work that brings value to the company",
-  profilePic: "/images/quandeptrai.jpg",
+  profilePic: "/images/quandeptrai.png",
 };
 
 export const aboutInfo = {
